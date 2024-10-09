@@ -27,7 +27,7 @@ public class PagamentoRepositoryTests {
         existingId = 1L;
         nonExistingId = 100L;
         //verificar quanto registro tem no seed
-        countTotalPagamento = 3L;
+        countTotalPagamento = 6L;
     }
 
     @Test
@@ -55,7 +55,7 @@ public class PagamentoRepositoryTests {
 
     @Test
     @DisplayName("findById Deveria retornar um Optional não vazio quando o Id existe")
-    public void findByIdShoulReturnNonEmptyOptionalWhenExistsId(){
+    public void findByIdShouldReturnNonEmptyOptionalWhenExistsId(){
 
         Optional<Pagamento> result = repository.findById(existingId);
         Assertions.assertTrue(result.isPresent());

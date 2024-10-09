@@ -6,3 +6,4 @@ INSERT INTO tb_pagamento(valor,  status, pedido_id, forma_de_pagamento_id) VALUE
 INSERT INTO tb_pagamento(valor,  status, pedido_id, forma_de_pagamento_id) VALUES(1200, 'CANCELADO', 4, 1);
 INSERT INTO tb_pagamento(valor,  status, pedido_id, forma_de_pagamento_id) VALUES(125.25, 'CONFIRMADO', 6, 1);
 
+
